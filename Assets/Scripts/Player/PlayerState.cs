@@ -33,11 +33,12 @@ public class PlayerState
 
     public virtual void Update()
     {
-
         stateTimer -= Time.deltaTime;
 
-        yInput = Input.GetAxisRaw("Vertical");
-        xInput = Input.GetAxisRaw("Horizontal");
+        //yInput = Input.GetAxisRaw("Vertical");
+        //xInput = Input.GetAxisRaw("Horizontal");
+        yInput = UltimateJoystick.GetVerticalAxis("Movement");
+        xInput = UltimateJoystick.GetHorizontalAxis("Movement");
 
         player.anim.SetFloat("yVelocity", rb.velocity.y);
     }
