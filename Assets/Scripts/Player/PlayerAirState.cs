@@ -19,7 +19,7 @@ public class PlayerAirState : PlayerState
         base.Update();
         player.SetVelocity(xInput * player.moveSpeed, yInput);
 
-        if ((xInput == 0 && !player.IsGroundDetected()) || yInput != 0)
+        if ((xInput == 0 && !player.IsGroundDetected()))
         {
             stateMachine.ChangeState(player.jumpState);
         }

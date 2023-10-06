@@ -39,7 +39,7 @@ public class Player : Entity
         base.Start();
         defaultGravity = rb.gravityScale;
         stateMachine.Initialize(idleState);
-        inventory.enabled = false;
+        //inventory.enabled = false;
     }
 
     protected override void Update()

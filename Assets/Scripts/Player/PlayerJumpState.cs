@@ -30,7 +30,7 @@ public class PlayerJumpState : PlayerState
             rb.velocity = new Vector2(rb.velocity.x, player.jumpForce);
         }
 
-        if (xInput != 0 && yInput == 0)
+        if (xInput != 0 && yInput >= -0.3f && yInput <= 0.3f)
         {
             stateMachine.ChangeState(player.airState);
         }
