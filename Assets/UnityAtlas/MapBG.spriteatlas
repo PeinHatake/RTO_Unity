@@ -6,7 +6,7 @@ SpriteAtlas:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Map
+  m_Name: MapBG
   m_EditorData:
     serializedVersion: 2
     textureSettings:
@@ -169,5 +169,5 @@ SpriteAtlas:
   - 14
   - 55
   m_RenderDataMap: {}
-  m_Tag: Map
+  m_Tag: MapBG
   m_IsVariant: 0
