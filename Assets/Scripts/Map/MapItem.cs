@@ -1,4 +1,5 @@
 using Cinemachine;
+using NaughtyAttributes;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
@@ -129,11 +130,14 @@ public class MapItem : MonoBehaviour
                 tilemap.SetTile(new Vector3Int(j, -i, 0), data[i][j] == 1 ? tileBase : null); 
             }
         }
-
+        
+    }
+    [Button]
+    public void FitPositionTileToMap()
+    {
         AdjustTileX();
         AdjustTileY();
     }
-
     private void AdjustTileX()
     {
         var colliderTileMap = tilemap.GetComponent<CompositeCollider2D>();
@@ -153,9 +157,9 @@ public class MapItem : MonoBehaviour
         var colliderTileMap = tilemap.GetComponent<CompositeCollider2D>();
         var botEdgeBig = mapMain.bounds.min.y;
         var botEdgeSmall = colliderTileMap.bounds.min.y;
-
+        
         var adjustment = botEdgeBig - botEdgeSmall;
-
+        
         var smallPosition = colliderTileMap.transform.position;
         smallPosition.y += adjustment;
         tilemap.transform.position = smallPosition;

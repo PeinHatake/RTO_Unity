@@ -18,4 +18,13 @@ public class MapGenerator : MonoBehaviour
        mapIns.GenMainMap();
    }
 #endif
+
+    private void Awake()
+    {
+        var prefab = mapModule.listMap[indexMap].prefab;
+        if (prefab != null)
+        {
+            Instantiate(prefab, transform);
+        }
+    }
 }

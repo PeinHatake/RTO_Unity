@@ -73,16 +73,10 @@ Assets/FR2_Cache.asset
 remote_config_data
 *.apk
 lfs/
-Assets/GAME SPACE/1Online/Cuonglh/Editor/*.txt
-Assets/GAME SPACE/1Online/Cuonglh/Editor/*.txt.meta
-Assets/GAME SPACE/1Online/Cuonglh/Editor/*.json
-Assets/GAME SPACE/1Online/Cuonglh/Editor/*.json.meta
+
 .idea/
 Assets/FR2_Cache.asset.meta
-/Assets/GAME SPACE/1Online/Taind/Data/logs/
-/Assets/GAME SPACE/1Online/Taind/Data/logs.meta
-
-Assets/AllIn1SpriteShader/Documentation.pdf.meta
 Packages/com.singularitygroup.hotreload/Documentation/Documentation.pdf.meta
 Library/ArtifactDB
 Assembly-CSharp.csproj
+Library/Artifacts

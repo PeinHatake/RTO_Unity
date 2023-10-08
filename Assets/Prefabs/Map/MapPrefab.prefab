@@ -155,7 +155,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75f5f55c36ad3ee488eb8a788a7096a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parallaxEffect: 0.7
+  parallaxEffect: 0.2
 --- !u!1 &4278624913557494518
 GameObject:
   m_ObjectHideFlags: 0
@@ -251,7 +251,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75f5f55c36ad3ee488eb8a788a7096a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parallaxEffect: 0.5
+  parallaxEffect: 0.3
 --- !u!1 &4278624913919686039
 GameObject:
   m_ObjectHideFlags: 0
@@ -347,7 +347,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75f5f55c36ad3ee488eb8a788a7096a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parallaxEffect: 1
+  parallaxEffect: 0.4
 --- !u!1 &4278624914056970365
 GameObject:
   m_ObjectHideFlags: 0
@@ -458,8 +458,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa17f1e177d61cb4abcfde1d585bc282, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mapMainAtlas: {fileID: 4343727234628468602, guid: 71732b9ef4467674f956d7aae04d4d88, type: 2}
-  bgAtlas: {fileID: 4343727234628468602, guid: ab5ec33529d15e34b9ac43cb84389c40, type: 2}
   mapMain: {fileID: 4278624914720010392}
   mapBgRenderers:
   - {fileID: 4278624913919686036}
@@ -472,14 +470,6 @@ MonoBehaviour:
   boundaryBoxColliderArea: {fileID: 1027963661}
   tilemap: {fileID: 4278624914684230501}
   tileBase: {fileID: 11400000, guid: 9602f3c3f67782e489db8edddf294843, type: 2}
-  map:
-    id: 0
-    name: 
-    planeId: 0
-    row: 0
-    column: 0
-    imgBgr: 
-    data: 
 --- !u!1 &4278624914684230507
 GameObject:
   m_ObjectHideFlags: 0
